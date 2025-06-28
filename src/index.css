@@ -1,89 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif;
- 
+  box-sizing: border-box;
 }
+
 body {
-  background-color:#fce4ec;
-} 
-.git{
-  
-  margin-top: 50px;
+  background-color: #fce4ec;
+  padding: 20px;
 }
-input{
-  width: 400px;
+
+.git {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
   padding: 9px;
   border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
-button{
+
+button {
   background-color: #212EA0;
   color: white;
-  margin-left: 20px;
-  padding: 8px;
-  width: 70px;
+  margin-left: 10px;
+  padding: 9px 16px;
   border-radius: 5px;
   border: none;
-  
+  cursor: pointer;
 }
-.all{
-  /* display: flex; */
+
+button:hover {
+  background-color: #1a1d87;
+}
+
+.all {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   border-radius: 10px;
   background-color: rgb(243, 235, 235);
-  margin-left: 520px;
+  margin: 40px auto;
+  padding: 20px;
 }
-.all img{
+
+.all img {
   width: 50px;
   border-radius: 50%;
-  margin-right: 20px;
   border: 4px solid #a8aee5;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin: 20px;
 }
-.all .left{
-  margin-top: 45px;
+
+.left {
   line-height: 1.4;
   font-size: 17px;
 }
-.follow{
+
+.follow {
   display: flex;
-  margin-left: 100px;
-  margin-top: 8px;
-} 
-.first{
-  display: flex;
-  margin-top: 60px;
-}
-.follow p{
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-.top{
   justify-content: center;
-  text-align: center;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
-.rep{
-  
-  margin-left: 55px;
-  line-height: 1.8;
-}
-h5{
-  font-size: 16px;
-  margin-left: 20px;
+
+.follow p {
   margin-bottom: 10px;
 }
+
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rep {
+  margin: 20px;
+  line-height: 1.8;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
 .rep ul {
   list-style: none;
   padding-left: 0;
 }
+
 a {
   text-decoration: none;
-  color: #212EA0; /* Your theme color */
+  color: #212EA0;
 }
 
 a:hover {
-  color: #1a1d87; /* Slightly darker on hover */
+  color: #1a1d87;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  input {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-left: 0;
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .all img {
+    margin: 20px auto 10px auto;
+    display: block;
+  }
+
+  .follow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rep {
+    margin: 10px auto;
+    text-align: center;
+  }
 }
