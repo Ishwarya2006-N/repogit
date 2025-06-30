@@ -1,12 +1,26 @@
-# React + Vite
+Features:
+✅ Search GitHub users by username
+✅ View user profile details including avatar, bio, location, followers, and following count
+✅ View top repositories of the user
+✅ Responsive design for all screen sizes
+✅ Clean and beginner-friendly project for practicing API calls with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack:
+React.js (Front-end)
+GitHub API (Data fetching)
+CSS (Styling)
 
-Currently, two official plugins are available:
+Usage:
+Enter a GitHub username in the search bar.
+Press Enter or click Search.
+View user details and top repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Learning Outcomes:
+✨ Working with REST APIs in React
+✨ Using useState and useEffect hooks
+✨ Managing user input and API errors
+✨ Building responsive UI with plain CSS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Check out the live demo here:
+👉[ GitHub User Finder Live
+](https://gitrepo-7krj.vercel.app/)
