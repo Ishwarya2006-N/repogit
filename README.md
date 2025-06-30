@@ -1,4 +1,4 @@
-Features:
+Features:/n
 ✅ Search GitHub users by username
 ✅ View user profile details including avatar, bio, location, followers, and following count
 ✅ View top repositories of the user
