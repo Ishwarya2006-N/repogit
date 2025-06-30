@@ -27,4 +27,5 @@ View user details and top repositories.
 
 ### Check out the live demo here
 
-👉 GitHub User Finder Live
+👉 [GitHub User Finder Live
+](https://findjob-one.vercel.app/)
